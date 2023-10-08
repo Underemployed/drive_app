@@ -60,6 +60,10 @@ PlatformException (PlatformException(FilePicker, Unsupported filter. Make sure t
 
 Contributions to this project are welcome! If you encounter any issues or have ideas for improvements, please open an issue or submit a pull request.
 
+## License
+
+This project is licensed under the [MIT License](https://github.com/Underemployed/flutter_firebase_storage/blob/main/LICENSE).
+
 
 
 ---
