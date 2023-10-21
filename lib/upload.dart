@@ -69,7 +69,7 @@ class _UploadScreenState extends State<UploadScreen> {
         color: Colors.blueAccent,
         size: 40,
       );
-    } else if (type == 'video') {
+    } else if (type == 'Video') {
       ft = ['mp4'];
       ic = Icon(
         Icons.play_circle,
@@ -182,7 +182,7 @@ class _UploadScreenState extends State<UploadScreen> {
                               ),
                             ),
                           );
-                        } else if (type == 'video') {
+                        } else if (type == 'Video') {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
