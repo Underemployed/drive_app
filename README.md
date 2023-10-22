@@ -1,5 +1,3 @@
-
-
 # File Management Flutter App
 
 This Flutter application provides a simple file management solution for users to upload, view, and organize different types of files, including PDFs, images, and videos, using Firebase for storage and authentication.
@@ -44,17 +42,6 @@ This Flutter application provides a simple file management solution for users to
 3. Upload files by tapping the "+" button, and select a file from your device.
 
 4. View and manage your files within folders.
-
-## Known Issue: Video Upload with File Picker
-
-- **Issue Description:** You may encounter an issue when trying to upload videos using the File Picker package. The app may not recognize video files with the "mp4" extension as expected.
-
-PlatformException (PlatformException(FilePicker, Unsupported filter. Make sure that you are only using the extension without the dot, (ie., jpg instead of .jpg). This could also have happened because you are using an unsupported file extension.  If the problem persists, you may want to consider using FileType.all instead., null, null))
-
-
-- **Resolution Attempts:** I attempted to address this issue by specifying the allowed file extensions for video uploads using Filetypes.all in the `FilePicker` configuration. However, this solution did not resolve the problem.
-
-- **Help Needed:** If you have experience with the File Picker package or have encountered a similar issue and found a solution, please consider contributing to this project by submitting a fix or sharing your insights.
 
 ## Contributing
 
